@@ -55,17 +55,32 @@
     <main class="main">
         <div class="container">
             <div class="main__inner">
-                <div class="main__offer">
-                    <h1>Допомога для ВПО</h1>
-                    <p>Якщо тобі довелося кинути домівку та виїхати, рятуючись від війни, якщо твої права та свободи обмежені, якщо ти не знаєш де отримати допомогу та до кого звернутися, то ми сподіваємося, що наш ресурс тобі допоможе. Ми намагаємось зібрати
-                        в одному місці усіх небайдужих до нашої біди.</p>
-                    <p>Отже тисни на кнопку нижче. Сподіваємось це допоможе тобі та твоїм рідним!</p>
-                    <a href="posts.html" class="btn">Знайти допомогу</a>
+                <form class="main__form add-form">
+                    <input class="main__input" type="text" placeholder="Ім'я або назва організації">
+                    <input class="main__input" type="text" placeholder="Телефон">
+                    <select name="city">
+                        <option selected>Оберіть місто</option>
+                        <option value="Новомосковськ">Новомосковськ</option>
+                        <option value="Дніпро">Дніпро</option>
+                        <option value="Київ">Київ</option>
+                        <option value="Кривий ріг">Кривий ріг</option>
+                        <option value="Полтава">Полтава</option>
+                        <option value="Черкаси">Черкаси</option>
+                        <option value="Олександрівка">Олександрівка</option>
+                    </select>
+                    <select name="cat">
+                        <option selected>Оберіть категорію</option>
 
-                </div>
-                <div class="main__img">
-                    <img src="img/home.jpeg" alt="">
-                </div>
+                        <option value="Горячі номери">Горячі номери</option>
+                        <option value="Волонтери">Волонтери</option>
+                        <option value="Допомога">Допомога</option>
+                        <option value="Житло">Житло</option>
+                        <option value="Авто">Авто</option>
+                        <option value="Рекомендації">Рекомендації</option>
+                    </select>
+                    <textarea cols="30" rows="10" placeholder="Пропозиція"></textarea>
+                    <button class="btn">Додати пропозицію</button>
+                </form>
             </div>
         </div>
     </main>

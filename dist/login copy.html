@@ -20,7 +20,7 @@
                 <nav class="header__nav">
                     <ul class="header__nav--list">
                         <li class="header__nav--link"><a href="index.html">Головна</a></li>
-                        <li class="header__nav--link" style="margin-right: 20px;"><a href="add-post.html">Додати пропозицію</a></li>
+                        <li class="header__nav--link" style="margin-right: 20px;"><a href="#">Додати пропозицію</a></li>
                         <li class="header__nav--link"><a href="#">Реєстрація</a></li>
                         <li class="header__nav--link"><a href="login.html">Вхід</a></li>
                     </ul>
@@ -37,7 +37,7 @@
                 <nav class="header__nav">
                     <ul class="header__nav--list">
                         <li class="header__nav--link">
-                            <a href="add-post.html"><svg class="add-post" width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href="#"><svg class="add-post" width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.4546 0.0136364L6.81824 0C5.31824 0 4.09097 1.22727 4.09097 2.72727V6.81818C4.09097 7.56818 4.70461 8.18182 5.45461 8.18182C6.20461 8.18182 6.81824 7.56818 6.81824 6.81818V5.45455H20.4546V24.5455H6.81824V23.1818C6.81824 22.4318 6.20461 21.8182 5.45461 21.8182C4.70461 21.8182 4.09097 22.4318 4.09097 23.1818V27.2727C4.09097 28.7727 5.31824 30 6.81824 30H20.4546C21.9546 30 23.1819 28.7727 23.1819 27.2727V2.72727C23.1819 1.22727 21.9546 0.0136364 20.4546 0.0136364ZM10.9092 19.0909C11.6592 19.0909 12.2728 18.4773 12.2728 17.7273V10.9091C12.2728 10.1591 11.6592 9.54545 10.9092 9.54545H4.09097C3.34097 9.54545 2.72733 10.1591 2.72733 10.9091C2.72733 11.6591 3.34097 12.2727 4.09097 12.2727H7.62279L0.954606 18.9409C0.699637 19.1959 0.556396 19.5417 0.556396 19.9023C0.556396 20.2629 0.699637 20.6087 0.954606 20.8636C1.20958 21.1186 1.55539 21.2618 1.91597 21.2618C2.27655 21.2618 2.62236 21.1186 2.87733 20.8636L9.54552 14.1955V17.7273C9.54552 18.4773 10.1592 19.0909 10.9092 19.0909Z" fill="#B5E4FF"/>
                                 </svg></a>
                         </li>
@@ -55,17 +55,11 @@
     <main class="main">
         <div class="container">
             <div class="main__inner">
-                <div class="main__offer">
-                    <h1>Допомога для ВПО</h1>
-                    <p>Якщо тобі довелося кинути домівку та виїхати, рятуючись від війни, якщо твої права та свободи обмежені, якщо ти не знаєш де отримати допомогу та до кого звернутися, то ми сподіваємося, що наш ресурс тобі допоможе. Ми намагаємось зібрати
-                        в одному місці усіх небайдужих до нашої біди.</p>
-                    <p>Отже тисни на кнопку нижче. Сподіваємось це допоможе тобі та твоїм рідним!</p>
-                    <a href="posts.html" class="btn">Знайти допомогу</a>
-
-                </div>
-                <div class="main__img">
-                    <img src="img/home.jpeg" alt="">
-                </div>
+                <form class="main__form">
+                    <input class="main__input" type="text" placeholder="Login">
+                    <input class="main__input" type="text" placeholder="password">
+                    <button class="btn">Увійти</button>
+                </form>
             </div>
         </div>
     </main>
